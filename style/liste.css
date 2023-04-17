@@ -1,0 +1,67 @@
+body{
+    background-color: #f8d700;
+}
+
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #f8d700;
+  }
+  
+  th, td{
+    text-align: left;
+    padding: 4px;
+    font-size: 19px;
+    
+  }
+  
+  th {
+    background-color: #a71111;
+    color: white;
+    font-size: 20px;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+    font-family: Berlin Sans FB Demi;
+  }
+
+  .bt{
+    width: 200px;
+    height: 50px;
+    background-color: #a71111;
+    color: white;
+    font-family: Berlin Sans FB Demi;
+    border-radius: 15px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+
+
+
+
+
+  .ltc{
+    color: black;
+    font-family: Berlin Sans FB Demi;
+    font-size: 18px;
+  }
+  .lti{
+    background-color: #a71111;
+    border-radius: 15px;
+    color: white;
+    font-family: Berlin Sans FB Demi;
+    font-size: 23px;
+    width: 80%;
+    height: 35px;
+  }
+  .stc{
+    font-family: Berlin Sans FB Demi;
+    font-size: 20px;
+    margin-left: 35%;
+  }
+ 
+   

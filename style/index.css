@@ -1,0 +1,386 @@
+* {box-sizing: border-box}
+body {font-family: Berlin Sans FB Demi;
+           
+}
+
+/* Style the tab */
+.tab {
+  float: left;
+ 
+  width: 30%;
+  height: 600px;
+  font-family: Berlin Sans FB Demi;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  display: block;
+  background-color: inherit;
+ 
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 25px;
+  font-family: Berlin Sans FB Demi;
+}
+
+
+/* Create an active/current "tab button" class */
+
+/* Style the tab content */
+.tabcontent {
+  float: left;
+  padding: 0px 12px;
+  border: 1px solid #f8d700;
+  width: 70%;
+  border-left: none;
+  height: 600px;
+  background-color: #f8d700;
+}
+
+.zb{
+    margin-top: -1.5cm;
+    margin-left: 57%;
+    color: white;
+}
+
+/*dropdown menu */
+.dropbtn{
+    background-color: #a71111;
+    border: none;
+}
+.dropbtn:hover, .dropbtn:focus {
+    display: inline-block;
+  cursor: pointer;
+}
+  
+  
+  #myInput {
+    box-sizing: border-box;
+    background-image: url('searchicon.png');
+    background-position: 14px 12px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    padding: 14px 20px 12px 45px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #myInput:focus {outline: 3px solid #ddd;}
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: 90%;
+    margin-top: -5cm;
+  
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f6f6f6;
+    min-width: 230px;
+    overflow: auto;
+    border: 1px solid #ddd;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    background-color: #a71111;
+  }
+  
+  .dropdown a:hover {background-color: #f8d700;
+                     color: black;
+}
+  
+  .show {display: block;}
+
+  /*bar */
+  
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.loi{
+    margin-top: -0.5cm;
+}
+.bare{
+    background-color: #a71111;
+    height: 70px;
+}
+.adm{
+    margin-top: -1.5cm;
+    margin-left: 32%;
+    color: white;
+}
+
+.img1{
+    margin-left: 2cm;
+}
+
+      
+.rect{
+    background-color: #ffffff;
+    margin-top: 1cm;
+    margin-left: 1cm;
+    width: 200px;
+    height: 150px;
+    color: white;
+    font-size: 25px;
+  font-family: Berlin Sans FB Demi;
+}
+.num{
+    margin-left: 1cm;
+    
+}
+.nl{
+    margin-left: 1cm;
+}
+
+.recta{
+    background-color: #a71111;
+    margin-top: -4.6cm;
+    margin-left: 40%;
+    width: 200px;
+    height: 150px;
+    color: white;
+    font-size: 25px;
+  font-family: Berlin Sans FB Demi;
+}
+.recta{
+    background-color: #a71111;
+    margin-top: -4.6cm;
+    margin-left: 40%;
+    width: 200px;
+    height: 150px;
+    color: white;
+    font-size: 25px;
+  font-family: Berlin Sans FB Demi;
+}
+
+.rectb{
+    background-color: #a71111;
+    margin-top: -4.6cm;
+    margin-left: 75%;
+    width: 200px;
+    height: 150px;
+    color: white;
+    font-size: 25px;
+  font-family: Berlin Sans FB Demi;
+}
+
+.rectc{
+    background-color: #a71111;
+    width: 844px;
+    height: 50px;
+    margin-left: 1cm;
+    font-size: 25px;
+    font-family: Berlin Sans FB Demi;
+    color: white;
+}
+.nvn{
+    margin-top: -2cm;
+    margin-left: 85%;
+}
+.nv{
+    margin-top: 1cm;
+}
+
+.rectd{
+    background-color: #a71111;
+    width: 844px;
+    height: 50px;
+    margin-left: 1cm;
+    
+    font-size: 25px;
+    font-family: Berlin Sans FB Demi;
+    color: white;
+}
+.recte{
+    background-color: #a71111;
+    width: 844px;
+    height: 50px;
+    margin-left: 1cm;
+    
+    font-size: 25px;
+    font-family: Berlin Sans FB Demi;
+    color: white;
+}
+
+.rectf{
+    background-color: #a71111;
+    width: 844px;
+    height: 50px;
+    margin-left: 1cm;
+    
+    font-size: 25px;
+    font-family: Berlin Sans FB Demi;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.cl{
+  color:black;
+  font-family: Berlin Sans FB Demi;
+  margin-left: 45%;
+  font-size: 30px;
+}
+
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #f8d700;
+}
+
+th, td{
+  text-align: left;
+  padding: 16px;
+  font-size: 20px;
+}
+
+th {
+  background-color: #ffffff;
+  color: black;
+  font-size: 20px;
+}
+.bt{
+  width: 200px;
+  height: 50px;
+  background-color: #a71111;
+  color: white;
+  font-family: Berlin Sans FB Demi;
+  border-radius: 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+
+/*modal form */
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #f8d700;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #f8d700;
+  width: 80%;
+  margin-top: -2cm;
+}
+
+/* The Close Button */
+.close {
+  color: #a71111;
+  float: right;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.ltc{
+  color: black;
+  font-family: Berlin Sans FB Demi;
+  font-size: 20px;
+}
+.lti{
+  background-color: #a71111;
+  border-radius: 15px;
+  color: white;
+  font-family: Berlin Sans FB Demi;
+  font-size: 20px;
+  width: 80%;
+  height: 50px;
+}
+.stc{
+  font-family: Berlin Sans FB Demi;
+  font-size: 27px;
+  margin-left: 35%;
+}
+
+.closea {
+  color: #a71111;
+  float: right;
+  font-size: 50px;
+  font-weight: bold;
+}
+.closea:hover,
+.closea:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.closeb {
+  color: #a71111;
+  float: right;
+  font-size: 50px;
+  font-weight: bold;
+}
+.closeb:hover,
+.closeb:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.bdg{
+  
+    width: 200px;
+    height: 50px;
+    background-color: #a71111;
+    color: white;
+    font-family: Berlin Sans FB Demi;
+    border-radius: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 2cm;
+  
+}
+

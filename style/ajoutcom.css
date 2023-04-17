@@ -1,0 +1,68 @@
+.loi{
+    margin-top: -0.5cm;
+}
+.bare{
+    background-color: #a71111;
+    height: 70px;
+}
+.adm{
+    margin-top: -1.5cm;
+    margin-left: 32%;
+    color: white;
+}
+
+.img1{
+    margin-left: 2cm;
+}
+ 
+.zb{
+    margin-top: -1.5cm;
+    margin-left: 45%;
+    color: white;
+}
+   
+
+
+
+.tcat{
+    margin-left: 60%;
+    margin-top: -6cm;
+}
+.tcli{
+    margin-left: -14cm;
+    margin-top: -3cm;
+}
+.aco{
+    margin-top: 2cm;
+    margin-left: -21cm;
+    
+}
+.lti{
+    margin: 1cm;
+}
+body{
+    background-color: #f8d700 ;
+}
+
+
+  .bt{
+    width: 10%;
+    height: 37px;
+    background-color: #a71111;
+    color: white;
+    font-family: Berlin Sans FB Demi;
+    border-radius: 15px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .lti{
+    background-color: #a71111;
+    border-radius: 15px;
+    color: white;
+    font-family: Berlin Sans FB Demi;
+    font-size: 16px;
+    width: 10%;
+    height: 30px;
+  }
+
+ 
